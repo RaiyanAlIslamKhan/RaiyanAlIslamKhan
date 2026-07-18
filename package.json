@@ -1,0 +1,23 @@
+{
+  "name": "clipflow",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ClipFlow — automated short-form video pipeline",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cli": "tsx src/script-generator/cli.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.73.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
