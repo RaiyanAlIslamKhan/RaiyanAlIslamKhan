@@ -8,6 +8,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "cli": "tsx src/script-generator/cli.ts",
+    "cli:tts": "tsx src/tts-captions/cli.ts",
     "build": "tsc",
     "typecheck": "tsc --noEmit"
   },
