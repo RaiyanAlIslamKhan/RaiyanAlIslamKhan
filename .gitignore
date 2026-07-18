@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.mp4
+*.png
+*.jpg
+output/
+tmp/
+.DS_Store
